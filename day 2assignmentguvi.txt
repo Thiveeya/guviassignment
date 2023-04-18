@@ -3,14 +3,14 @@
 		1)Browser Object Model (BOM):
 			 	1.The Browser Object Model contains objects that represent the current browser window or tab. 
  				2.The topmost object in the BOM is the window object representing the window or tab or an iframe sometimes.
-				3.Window object has properties like browser history, location and the device’s screen etc. 
+				3.Window object has properties like browser history, location and the deviceâ€™s screen etc. 
 		2)Document Object Model (DOM):
 				1.When a web page is loaded, the browser creates a Document Object Model of the page.
 				2. The document object represents the whole html document as a tree of Objects(HTML, HEAD, BODY, and other HTML tags). 
 				3.It is the root element that represents the html document.
        	Window Vs Document:
 			
- 	                    WINDOW:
+ 	                WINDOW:
 			     1.It represents a browser window or frame that displays the contents of the webpage.   
    			     2.It is the very first object that is loaded in the browser.
  			     3.It is the object of the browser.	
@@ -20,10 +20,10 @@
 			     7.Properties of the window object cannot be accessed by the document object.
 			     8.syntax:
 				window.propertyname;
-        			     9.example:
+        		     9.example:
 				window.innerHeight : will return the height of the content area of the browser
 
-                                 DOCUMENT:
+                       DOCUMENT:
 			     1.It represents any HTML document or web page that is loaded in the browser.
 			     2.It is loaded inside the window.
 			     3.It is the object of window property.
@@ -31,7 +31,7 @@
 			     5.We can access the document from a window using the window. document
     			     6.The document is part of BOM (browser object model) and dom (Document object model)
 			     7.Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title
-		                     8.syntax:
+		             8.syntax:
 				   document.propertyname;
 			     9.example:
 				  document.title :  will return the title of the document
