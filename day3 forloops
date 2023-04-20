@@ -1,0 +1,48 @@
+
+var json = [{
+    "id" : "thivi1", 
+    "msg"   : "For the given JSON iterate over all for loops (for, for in, for of, forEach)",
+    "task" : "guviday3 task",
+    "mail": "rbsthivi97@gmail.com"
+},
+{
+    "id" : "thivi2", 
+    "msg"   : "For the given JSON iterate over all for loops (for, for in, for of, forEach)",
+    "task" : "guviday3 task",
+    "mail": "rbsthivi97@gmail.com"
+}];
+//for loop
+for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.id);
+    console.log(obj.msg);
+    console.log(obj.task);
+    console.log(obj.mail);
+
+}
+//for Each
+json.forEach(function(obj) 
+{ 
+    console.log(obj.mail); 
+    
+});
+
+//for In
+for (var i in json) {
+ {
+  console.log(json[i].id);
+  
+ 
+}
+}
+//for Of
+
+for (var x of json) {
+ console.log(x.mail) ;
+}
+ console.log(text);
+
+
+
+
